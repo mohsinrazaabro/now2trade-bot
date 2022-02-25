@@ -37,6 +37,3 @@ jobs:
       run: |
         rm -r dist
         pyinstaller --onefile --windowed --noconsole --name Now2TradeBot main.py
-    - name: Test with pytest
-      run: |
-        pytest
