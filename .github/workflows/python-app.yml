@@ -37,3 +37,9 @@ jobs:
       run: |
         rm -r dist
         pyinstaller --onefile --windowed --noconsole --name Now2TradeBot main.py
+        
+        with:
+          name: dist-without-markdown
+          path: |
+            dist
+  
